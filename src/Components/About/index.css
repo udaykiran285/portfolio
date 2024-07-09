@@ -3,6 +3,10 @@
     height:85vh;
 }
 
+.about-inner-bg{
+    height: 85vh;
+}
+
 *{
     box-sizing: border-box;
 }
