@@ -1,0 +1,40 @@
+.contact-bg{
+    height:85vh;
+    background-color: #FEF4F2;
+}
+
+.contact-icon{
+    height:3rem;
+    width:3rem;
+    color:#e6573b;
+    margin-right: 1rem;
+    padding: 0;
+}
+
+.contact-icon-container{
+    margin-bottom: 1rem;
+    p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 1.4rem;
+        color: #0D0F16;
+        margin: 0;
+        padding:0;
+    }
+}
+
+.personal-details{
+    padding:0;
+    font-family: "Nunito";
+    font-size: 1.1rem;
+    font-weight: 400;
+    span{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: #0D0F16;
+    }
+}

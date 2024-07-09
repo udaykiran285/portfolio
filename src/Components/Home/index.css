@@ -1,0 +1,158 @@
+.home-bg{
+	background-color: #FEF4F2;
+	height:85vh;
+}
+
+.first-section{
+  height: 85vh;
+} 
+
+.intro{
+  animation: slideRight 1s ease-in-out;
+    .hi-there{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        color: #0D0F16;
+        margin: 0;
+        padding:0;
+    }
+    .title{
+        margin: 0 0 0.3rem 0;
+        padding:0;
+        color:#F26C4F
+    }
+    
+    .my-name{
+        font-family: 'Satisfy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 3rem;
+        line-height: 5.5rem;
+        color: #000000;
+        margin:1rem 1rem 1rem 0;
+        padding:0;
+        span{
+            color: #F26C4F;
+        }
+    }
+    .slogun{
+        font-family: 'Nunito';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.1rem;
+        margin: 0 0 2rem ;
+        color: #0D0F16;
+        padding:0;
+    }
+    .web-developer {
+        font-size: 20px;
+        font-family: Arial, sans-serif; /* Set the font family to Arial */
+        color:#660303c9;
+        margin: 0 0 1rem 0;
+        font-weight:bold;
+        animation: pop 1s ease-in-out 1s forwards;
+      }
+} 
+
+
+.home-img{
+  height:25rem;
+  width:25rem;
+  border-radius: 50%;
+  border:5px solid #660303;
+  animation: slideLeft 1s ease-in-out;
+}
+
+
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes pop {
+  0% {
+      transform: scale(0);
+  }
+  50% {
+      transform: scale(1.2);
+
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+/* home page button */
+
+.homeBtn {
+    height:1rem;
+    width:1rem;
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+  /* background: #F26C4F; */
+  background: linear-gradient(90deg, #F26C4F 0%, #F26C4F 81%);
+  border-radius: .2rem;
+  padding:0.5rem 1.5rem 0.5rem 1.5rem;
+  cursor: pointer;
+  /* transition: background 1s, border 0.5s, color 0.5s ease-in-out; */
+   /* Add a 0s transition for the specified properties */
+}
+
+.homeBtn:hover {
+  color: white;
+  font-weight: 500;
+  animation: animatedGradient .5s .2s ease 1 both;
+  transition: all 1s ease-in;
+}
+
+@keyframes animatedGradient{
+  0%{
+    background: linear-gradient(90deg, #660303c9 0%, #e02929c9 81%);
+  }
+  25%{
+    background: linear-gradient(90deg,  #660303da 0%, #e02929da 81%);
+  }
+  50%{
+    background: linear-gradient(90deg,  #660303ec 0%, #e02929ec 81%);
+  }
+  75%{
+    background: linear-gradient(90deg,  #660303ef 0%, #e02929ef 81%);
+  }
+  100%{
+    background: linear-gradient(90deg,  #660303 0%, #e02929 81%);
+  }
+}
+
+.icon{
+  height:2rem;
+  width:2rem;
+  color:black;
+  margin:1rem 1rem 0 0;
+  transition:transform 0.3s ease-out;
+}
+
+.icon:hover{
+  transform: scale(1.2);
+}

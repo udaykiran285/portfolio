@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar-main-bg{
+    background-color:#FEF4F2;
+    height:15vh;
+    .navbar-logo-heading{
+        font-family:'Montserrat';
+        font-weight: 600;
+        font-size: 2rem;
+        color:#0D0F16;
+        margin: 0;
+        padding : 0;
+        text-decoration: none;
+        padding:1.5rem;
+    }
+    ul{
+        display: flex;
+        height:15vh;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type:none;
+        color: black;
+        .nav-link{
+            color:#A91D3A;
+            text-decoration: none;
+            font-family:'Barlow';
+            font-weight: 400;
+            font-size: 1.0.9rem;
+        }
+        .active{
+            color:rgba(79,1,1,1);
+            text-decoration: underline;
+            font-weight: 700 !important;
+        }
+    }
+    
+}
+
+
+.download-resume-btn{
+    text-decoration: none;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    color: #F87474;
+    font-size: 0.9rem;
+    border: 0.1rem solid #F87474;
+    border-radius: .5rem;
+    background-color: #FEF4F2 !important;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.download-resume-btn:hover {
+    background-image: linear-gradient(90deg, rgba(79,1,1,1) 0%, rgba(242,79,79,1) 81%); /* Add your desired gradient colors */
+    color: white;
+    font-weight: 600;
+    border: .1rem  solid white;
+    transition: all 1s ease-in-out; 
+    /* Add a 0s transition for the specified properties */ 
+}
+
+.nav-link:hover{
+    font-weight: 700 !important;
+    text-decoration: underline !important;
+}

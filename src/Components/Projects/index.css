@@ -1,0 +1,126 @@
+.projects-bg{
+    background-color: #FEF4F2;
+}
+
+.project-container{
+    padding:0;
+    a{
+        font-size: 1.5rem;
+        padding:0;
+        margin-bottom: 1rem;
+        text-decoration: none;
+        color:#ef5030;
+        font-weight: 600;
+        font-family: 'Montserrat';
+    }
+    .project-image{
+        height:17rem;
+        width:25rem;
+        border-radius:1rem;
+    }
+}
+
+.project-outer-container{
+    border-bottom: 2px solid black;
+}
+
+.project-container-description{
+    padding:0;
+    h6{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 2rem;
+        color: #0D0F16;
+    }
+    p{
+        font-family: "Nunito";
+        font-size: 0.9rem;
+    }
+    span{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 2rem;
+        color: #0D0F16;
+    }
+}
+
+.project-link:hover{
+
+    text-decoration: underline;
+}
+
+.project-image-container-1{
+    
+    background-image: url("https://i.pinimg.com/originals/aa/29/c3/aa29c30acb037c359bff34f60f6fb0df.gif");
+    height:17rem;
+    width:25rem;
+    background-size: cover;
+    border-radius:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        display: none;
+    }
+}
+
+
+.project-image-container-1:hover{
+    
+    button{
+        display: inline;
+        border: 2px solid white;
+    }
+} 
+
+
+
+.project-image-container-2{
+    
+    background-image: url("https://i.pinimg.com/originals/03/99/91/03999141bb34e16c89b27a863092a10a.gif");
+    height:17rem;
+    width:25rem;
+    background-size: cover;
+    border-radius:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        display: none;
+    }
+}
+
+
+.project-image-container-2:hover{
+    button{
+        display: inline;
+        border: 2px solid white;
+    }
+} 
+
+.project-image-container-3{
+    
+    background-image: url("https://i.pinimg.com/originals/69/e6/f6/69e6f674d4ab40834c31493d21d9560c.gif");
+    height:17rem;
+    width:25rem;
+    background-size: cover;
+    border-radius:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        display: none;
+    }
+}
+
+
+.project-image-container-3:hover{
+    button{
+        display: inline;
+        border: 2px solid white;
+    }
+} 

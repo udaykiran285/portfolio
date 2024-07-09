@@ -1,0 +1,48 @@
+.skills-bg{
+    background-color: #FEF4F2;
+    height:85vh;
+}
+
+.slogun{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin: 0 0 2rem ;
+    color: #0D0F16;
+    padding:0;
+}
+
+.skills-container{
+    animation: fadeRight 1.5s ease-in-out;
+}
+
+
+.skill-container{
+    border: 1px solid #ee5131;
+    box-sizing: border-box;
+    padding:1rem;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .skill-icon{
+        height:3rem;
+        width:3rem;
+    }
+    p{
+        padding:0;
+        margin:0;
+    }
+}
+
+@keyframes fadeRight {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
