@@ -15,7 +15,7 @@ const Skills = () => {
     return(
         <>
         <Navbar navLinksObject={navLinksObject}/>
-        <div className='skills-bg'>
+        <div className='skills-bg pb-3'>
             <div className='container'>
                 <div className='row'>
                     <p className="title">-SKILLS</p>
