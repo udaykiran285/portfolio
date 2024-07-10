@@ -14,14 +14,14 @@ const navLinksObject = {
 const Projects  = () => (
     <>
         <Navbar navLinksObject={navLinksObject}/>
-        <div className='projects-bg'>
+        <div className='projects-bg p-3'>
             <div className='container'>
                 <div className='row'>
                     <p className="title">-SKILLS</p>
                     <p className="hi-there">AREA OF EXPERTISE</p>
                     <p className='slogun'> I love making websites that can grow big, finding useful solutions, and always learning to get better in the IT world.</p>
                 </div>
-                <div className='row project-outer-container mb-5 pb-3'>
+                <div className='row project-outer-container mb-5 pb-3 pl-1'>
                     <div className='project-container col-11 col-lg-5'>
                         <a href="https://udaykiran285.github.io/ai-chatbot/" className='project-link' target='_blank' rel="noreferrer">1. Artificial Intelligence - Chatbot</a>
                         <div className='project-image-container-1'>
@@ -39,7 +39,7 @@ const Projects  = () => (
                         </p>
                     </div>
                 </div>
-                <div className='row project-outer-container mb-5 pb-3'>
+                <div className='row project-outer-container mb-5 pb-3 pl-1'>
                     <div className='project-container col-11 col-lg-5'>
                         <a href="https://udaykiran285.github.io/jobby/" className='project-link' target='_blank' rel="noreferrer">2. Jobby - Job Search Application</a>
                         <div className='project-image-container-2'>
@@ -57,9 +57,9 @@ const Projects  = () => (
                         </p>
                     </div>
                 </div>
-                <div className='row project-outer-container mb-5 pb-3'>
+                <div className='row project-outer-container mb-5 pb-3 pl-1'>
                     <div className='project-container col-11 col-lg-5'>
-                        <a href="https://udaykiran285.github.io/nxtrendz/" className='project-link' target='_blank' rel="noreferrer">3. NxtTrends -  Ecommerce Application</a>
+                        <a href="https://udaykiran285.github.io/nxtrendz/" className='project-link' target='_blank' rel="noreferrer">3. NxtTrends -  Ecommerce <br/>Application</a>
                         <div className='project-image-container-3'>
                         <a href="https://udaykiran285.github.io/nxtrendz/" target='_blank' rel="noreferrer"><button className='btn btn-danger'>Live Web</button></a>
                         </div>
